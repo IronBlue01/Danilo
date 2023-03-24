@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.48783263305322133) 0%, rgba(158,33,171,0.5130427170868348) 33%, rgba(0,212,255,1) 100%);
+}
+
+#branch-title{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+button {
+    background: rgb(0,177,122);
+    background: linear-gradient(90deg, rgba(0,177,122,0.8491771708683473) 0%, rgba(19,187,180,0.9976365546218487) 33%, rgba(0,212,255,1) 100%);
+    border-radius: 0.6rem !important;
+}
+
+button:hover {
+    background: rgb(177,0,140);
+    background: linear-gradient(90deg, rgba(177,0,140,0.8491771708683473) 0%, rgba(171,19,187,0.9976365546218487) 40%, rgba(231,100,179,1) 100%);
+}
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0 !important;
+    border: 1px solid #dddddd !important;
+    outline: 0 !important;
+} 
