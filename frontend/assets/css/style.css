@@ -31,3 +31,10 @@ textarea:focus, input:focus, select:focus {
     border: 1px solid #dddddd !important;
     outline: 0 !important;
 } 
+
+.icon{
+    cursor: pointer;
+}
+.icon:hover{
+    color: #C71585;
+}
